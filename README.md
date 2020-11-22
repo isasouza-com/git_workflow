@@ -17,3 +17,36 @@ git config --global user.name "Nome do usuário"
 git config --global user.email "E-mail do usuário"
 ```
 _Utilizar o nome de usuário e e-mail utilizados para criação da conta no Github_
+
+### Comandos Básicos:
+Estes são comandos básicos utilizados para trabalhar no repositório local:
+
+1. Iniciar/Habilitar o Git para fazer o *tracking* de um diretório e seus arquivos:
+
+```
+git init
+```
+
+2. Verificar o status do seu repositório, identificar se possuem arquivos que precisam ser adicionados na *stage area* para que o Git possa fazer o *tracking*:
+```
+git status
+```
+
+3. Adicionar arquivos na *stage area*:
+```
+git add "nome do arquivo"
+
+ou 
+
+git add * (para adicionar todos os arquivos)
+```
+
+4. Efetuar *commit* dos arquivos que estão na *stage area*:
+```
+git commit -m "mensagem (ex. Commit inicial do projeto)"
+```
+
+5. Verificar o log do Git, onde são registrados todos os commits efetuados no repositório:
+```
+git log
+```
