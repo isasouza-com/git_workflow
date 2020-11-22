@@ -3,6 +3,7 @@ Repositório com conteúdo básico sobre o Git
 
 #### Objetivo:
 Este repositório contém comandos básicos do Git que podem ajudar a todos que estão iniciando o uso desta ferramenta.
+Através do Git você poderá versionar seus projetos e integra-lo com esta "rede social" de desenvolvedores que é o Github, dando visibilidade e agilidade ao seu trabalho.
 
 ### Comandos: configuração do ambiente
 Estes são os passos iniciais para configurar o Git no seu computador e iniciar o seu uso:
