@@ -50,3 +50,14 @@ git commit -m "mensagem (ex. Commit inicial do projeto)"
 ```
 git log
 ```
+
+### Comandos Adicionais:
+
+Configurar arquivo *gitignore*, este arquivos deve conter o nome de arquivos e diretórios que estão no repositório mas *não serão trackeados/versionados* pelo Git:
+1. Na raiz do repositório, criar um arquivo com o nome *.gitignore*.
+2. Adicionar no arquivo os nomes de arquivos ou diretórios que não serão versionados e salvar o arquivo.
+3. Executar o *git add* e *git commit* para o arquivo.
+
+Pronto, o git irá ignorar todos os arquivos/diretórios listados neste arquivos.
+  
+
