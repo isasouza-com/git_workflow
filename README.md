@@ -59,5 +59,20 @@ Configurar arquivo *gitignore*, este arquivos deve conter o nome de arquivos e d
 3. Executar o *git add* e *git commit* para o arquivo.
 
 Pronto, o git irá ignorar todos os arquivos/diretórios listados neste arquivos.
-  
 
+### Sincronização com repositório remoto:
+
+1. Criar o repositório remoto no Git (preciso já ter criado um usuário na plataforma) e copiar a URL do seu repositório criado no Git
+
+2. No diretório local do seu computador executar:
+
+```
+git add remote origin <url-do-seu-repositorio-no-git>
+```
+**ex.: git add remote origin https://github.com/isasouza-com/git_workflow.git**
+
+3. Para sincronizar conteúdo do diretório remoto com o diretório local do seu computador:
+
+```
+git pull origin main
+```
