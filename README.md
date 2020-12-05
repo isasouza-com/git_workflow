@@ -79,5 +79,5 @@ git pull origin main
 
 4. Para sincronicar contúdo do **diretório local do seu computador com o diretório remoto**:
 ```
-git push origin main
+git push origin master
 ```
