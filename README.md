@@ -71,8 +71,13 @@ git add remote origin <url-do-seu-repositorio-no-git>
 ```
 **ex.: git add remote origin https://github.com/isasouza-com/git_workflow.git**
 
-3. Para sincronizar conteúdo do diretório remoto com o diretório local do seu computador:
+3. Para sincronizar conteúdo do **diretório remoto com o diretório local do seu computador**:
 
 ```
 git pull origin main
+```
+
+4. Para sincronicar contúdo do **diretório local do seu computador com o diretório remoto**:
+```
+git push origin main
 ```
